@@ -1,4 +1,4 @@
-package ch5_Arrays;
+package ch6_Arrays;
 
 public class MultiDimensionalArray_28 {
 
@@ -7,12 +7,14 @@ public class MultiDimensionalArray_28 {
 		
 		//2-D Array
 		
-		int [][] flats = new int [2][2];
+		//int [][] flats = new int [2][2]; 
 		
-		flats [0][0]=1001;
-		flats [0][1]=1002;
-		flats [1][0]=101;
-		flats [1][1]=102;
+//		flats [0][0]=1001;
+//		flats [0][1]=1002;
+//		flats [1][0]=101;
+//		flats [1][1]=102;
+		
+		int [][] flats = {{1001,1002},{101,102}};
 		
 		for(int i=0;i<flats.length;i++)
 		{

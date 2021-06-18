@@ -1,4 +1,4 @@
-package ch4_Strings;
+package ch3_Strings;
 
 import java.util.Scanner;
 

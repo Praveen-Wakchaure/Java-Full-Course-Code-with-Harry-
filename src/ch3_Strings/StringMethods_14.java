@@ -1,4 +1,4 @@
-package ch4_Strings;
+package ch3_Strings;
 
 public class StringMethods_14 {
 

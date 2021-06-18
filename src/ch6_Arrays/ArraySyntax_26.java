@@ -1,4 +1,4 @@
-package ch5_Arrays;
+package ch6_Arrays;
 
 public class ArraySyntax_26 {
 	public static void main(String[] args) {

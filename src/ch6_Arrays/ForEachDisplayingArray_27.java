@@ -1,4 +1,4 @@
-package ch5_Arrays;
+package ch6_Arrays;
 
 public class ForEachDisplayingArray_27 {
 	
