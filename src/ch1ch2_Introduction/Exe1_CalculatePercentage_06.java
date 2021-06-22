@@ -2,7 +2,7 @@ package ch1ch2_Introduction;
 
 import java.util.Scanner;
 
-public class CalculatePercentage_06 {
+public class Exe1_CalculatePercentage_06 {
 
 	public static void main(String[] args) {
 		

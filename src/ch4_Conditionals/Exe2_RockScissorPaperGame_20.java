@@ -3,7 +3,7 @@ package ch4_Conditionals;
 import java.util.Random;
 import java.util.Scanner;
 
-public class RockScissorPaperGame_20 {
+public class Exe2_RockScissorPaperGame_20 {
 	
 	public static void main(String[] args) {
 		
