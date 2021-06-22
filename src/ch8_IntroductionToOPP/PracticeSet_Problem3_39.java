@@ -30,10 +30,6 @@ class Square
 }
 
 
-
-
-
-
 public class PracticeSet_Problem3_39 {
 	
 
