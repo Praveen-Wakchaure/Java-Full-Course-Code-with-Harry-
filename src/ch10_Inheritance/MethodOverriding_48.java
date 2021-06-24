@@ -1,4 +1,4 @@
-package ch9_Inheritance;
+package ch10_Inheritance;
 
 class A
 {

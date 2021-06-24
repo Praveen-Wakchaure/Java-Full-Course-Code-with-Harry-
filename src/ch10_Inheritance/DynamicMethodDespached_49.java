@@ -1,4 +1,4 @@
-package ch9_Inheritance;
+package ch10_Inheritance;
 
 class Super
 {
@@ -41,10 +41,6 @@ public class DynamicMethodDespached_49 {
 		
 	  //method.Meth3();     //<-- Not Allowed
 		
-		
-		
-		
-
 	}
 
 }
