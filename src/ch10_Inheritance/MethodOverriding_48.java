@@ -13,7 +13,7 @@ class C extends  A
 	@Override
 	void B()                      //<-- Method void B is override
 	{
-		String a="Praveen";
+		String a="Override";
 		System.out.println(a);
 	}
 }
