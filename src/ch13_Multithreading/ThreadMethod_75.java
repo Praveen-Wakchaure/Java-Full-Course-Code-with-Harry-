@@ -35,12 +35,10 @@ public class ThreadMethod_75 {
 		
 		t11.start();
 		
-		t11.join();                          // Exception Handling needed-->1. Throws Exception or 2. Try-catch exception
+		t11.join();                          //Exception Handling needed--> 1. Throws Exception or 2. Try-catch exception
 		
 		//After finishing of t11, t12 starts executes
 		
-		t12.start();
-			
+		t12.start();			
 	}
-
 }
