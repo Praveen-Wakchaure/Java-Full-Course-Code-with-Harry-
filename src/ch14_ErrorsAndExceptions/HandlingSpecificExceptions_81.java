@@ -1,5 +1,8 @@
 package ch14_ErrorsAndExceptions;
 
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
 public class HandlingSpecificExceptions_81 {
 
 	public static void main(String[] args) {
@@ -33,6 +36,33 @@ public class HandlingSpecificExceptions_81 {
 		{
 			System.out.println("Some exception occurs :"+b);
 		}
+		
+		
+		//................Handling Multiple Exceptions.............
+		
+		
+//		Scanner sc = new Scanner(System.in);
+//		
+//		
+//		try
+//		{
+//			System.out.println("Enter Integer Value");
+//			int a = sc.nextInt();
+//			System.out.println(7/a);
+//			
+//		}
+//		catch (InputMismatchException e) 
+//		{
+//			System.out.println("Input not Valid");
+//		}
+//		catch (ArithmeticException e) 
+//		{
+//			System.out.println("Cannot divide by zero");
+//		}
+//		catch (Exception e) {
+//			System.out.println("Something Went Wrong...");
+//		}
+	
 	}
 
 }
