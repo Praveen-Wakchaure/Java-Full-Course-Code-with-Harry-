@@ -56,12 +56,12 @@ public class IfElseAndSwitchCase_18 {
 		
 		//Enhanced switch...case ---> Supported JAVA 14 and Above (No break statement required)
 		
-		switch (age) {
-		case (3)->System.out.println("Baby");
-		case (18)->System.out.println("Adult");
-		case(60)->System.out.println("Old");
-		default->System.out.println("Thank You");
-		}
+//		switch (age) {
+//		case (3)->System.out.println("Baby");
+//		case (18)->System.out.println("Adult");
+//		case(60)->System.out.println("Old");
+//		default->System.out.println("Thank You");
+//		}
 	}  
 
 }

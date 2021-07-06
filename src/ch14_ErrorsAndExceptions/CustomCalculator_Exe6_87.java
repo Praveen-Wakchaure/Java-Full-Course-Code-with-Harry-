@@ -65,7 +65,7 @@ class MaximumMultiplierReachedException extends Exception
 
 
 
-public class Exe6_CustomCalculator_87 {
+public class CustomCalculator_Exe6_87 {
 	
 	public static double Addition(double a, double b) {
 		
