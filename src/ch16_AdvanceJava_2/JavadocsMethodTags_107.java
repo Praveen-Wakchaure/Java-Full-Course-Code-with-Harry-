@@ -2,6 +2,8 @@ package ch16_AdvanceJava_2;
 
 import java.util.Date;
 
+import ch10_Inheritance.ThisAndSuper_47;
+
 public class JavadocsMethodTags_107 {
 	
 	/**
