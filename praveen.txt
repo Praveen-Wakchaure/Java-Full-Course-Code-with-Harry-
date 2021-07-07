@@ -1,0 +1,10 @@
+The Lambda EG did consider this issue. Many libraries use functional interfaces, even though they were designed years before functional interface became a thing. But it does happen sometimes that a class has multiple abstract methods, and you only want to target one of them with a lambda.
+
+The officially recommended pattern here is to define factory methods:
+
+static MouseListener clickHandler(Consumer<MouseEvent> c) { return ... }
+These can be done directly by the APIs themselves (these could be static methods inside of MouseListener) or could be external helper methods in some other library should the maintainers choose not to offer this convenience. Because the set of situations where this was needed is small, and the workaround is so simple, it did not seem compelling to extend the language further to rescue this corner case.
+
+A similar trick was employed for ThreadLocal; see the new static factory method withInitial(Supplier<S>).
+
+(By the way, when this issue comes up, the example is almost always MouseListener, which is encouraging as it suggests the set of classes which would like to be lambda friendly, but aren't, is actually pretty small.)
