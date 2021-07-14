@@ -5,6 +5,7 @@ class Addition
 	int a;
 	int b;
 	int sum;
+	String color="Blue";
 public final void add() {
 	
 	this.a=5;
@@ -19,6 +20,8 @@ class Multiplication extends Addition
 	int a;
 	int b;
 	int mul;
+	String color="Green";
+	
 	
 	public void multiply() {
 		
@@ -30,6 +33,9 @@ class Multiplication extends Addition
 		System.out.println(mul);
 		
 		System.out.println(sum);
+		
+		System.out.println(color);
+		System.out.println(super.color);
 	}
 }
 
