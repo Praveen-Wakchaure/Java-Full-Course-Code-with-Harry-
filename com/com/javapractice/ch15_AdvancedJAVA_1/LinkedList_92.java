@@ -29,6 +29,8 @@ public class LinkedList_92 {
 		l1.addLast(100);
 		l1.addFirst(100);
 		
+		l1.add(6, null);           // null can be add in Linked List
+		
 		System.out.println("");
 		
 		System.out.print("l1 Array: ");
@@ -41,6 +43,10 @@ public class LinkedList_92 {
 		
 		l1.removeLast();
 		l1.removeFirst();
+		
+		System.out.println("");
+		
+		System.out.println(l1.getFirst());
 		
 		System.out.println("");
 		

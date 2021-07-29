@@ -13,6 +13,8 @@ public class ArrayDeque_93 {
 		ad.add(103);
 		ad.add(104);
 		
+		//ad.add(null);     //<--cannot add null element in ArrayDeque
+		
 		ad.addFirst(10001);
 		ad.addLast(10002);
 		
