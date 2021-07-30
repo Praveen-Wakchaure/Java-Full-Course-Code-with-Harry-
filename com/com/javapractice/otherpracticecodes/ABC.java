@@ -1,4 +1,4 @@
-package com.javapractice.ch6_Arrays;
+package com.javapractice.otherpracticecodes;
 
 public class ABC {
 

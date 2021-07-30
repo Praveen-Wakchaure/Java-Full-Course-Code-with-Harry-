@@ -25,8 +25,7 @@ class Employee
 	 {
 		 name=n;
 	 }	 
-	 
-	 
+	 	 
 }
 
 public class PracticeSet_Problem1_39 {
@@ -40,8 +39,6 @@ public class PracticeSet_Problem1_39 {
 		System.out.println("Name is :"+manoj.getName());
 		System.out.println("Salary is :"+manoj.getSalary());
 		
-		
-
 	}
 
 }

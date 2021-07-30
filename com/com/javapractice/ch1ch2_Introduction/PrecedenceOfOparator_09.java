@@ -5,6 +5,7 @@ public class PrecedenceOfOparator_09 {
 	public static void main(String[] args) {
 		
 		int a =4;
+		
 		int b = 8;
 		
 		int c = 4*3/2;
@@ -14,7 +15,5 @@ public class PrecedenceOfOparator_09 {
 		System.out.println(c);
 		System.out.println(d);
 		
-
 	}
-
 }

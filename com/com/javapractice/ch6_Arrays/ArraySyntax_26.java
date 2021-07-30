@@ -14,7 +14,11 @@ public class ArraySyntax_26 {
 		marks[3]=80;
 		marks[4]=90;
 		
+		marks [5] =(Integer) null;
+		
 		System.out.println(marks[4]);
+		
+		//System.out.println(marks[5]);   //<-- Null Pointer Expression
 		
 		int [] marks1 = {50,45,46,3,65}; //<--- 3rd method
 		

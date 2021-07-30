@@ -23,7 +23,7 @@ public class ForEachDisplayingArray_27 {
 		
 		for(int i=0; i<marks1.length; i++)
 		{
-			System.out.println(marks[i]);
+			System.out.println(marks1[i]);
 		}
 		
 		//Using normal method
